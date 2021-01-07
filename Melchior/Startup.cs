@@ -20,7 +20,7 @@ namespace Melchior
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ProfileContext>(opt =>
-                                               opt.UseInMemoryDatabase("Profiles"));
+                                               opt.UseInMemoryDatabase("Profile"));
             services.AddControllers();
         }
 
