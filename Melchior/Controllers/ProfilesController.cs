@@ -9,7 +9,7 @@ using Melchior.Models;
 
 namespace Melchior.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/melchior")]
     [ApiController]
     public class ProfilesController : ControllerBase
     {
