@@ -26,10 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwRoot\css\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwRoot\images\banner1.jpg" />
   </ItemGroup>
 

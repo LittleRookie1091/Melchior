@@ -3,23 +3,27 @@
 <head>
     <meta charset="utf-8" />
     <title>test angular</title>
+    <link rel="stylesheet" href="css/index.css" />
 </head>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js">
-</script>
+
 <body ng-app>
 
     First Name:
     <input type="text" ng-model="fname" />
     <br /> Last Name:
     <input type="text" ng-model="lname" />
-    <br /> Result: {{fname+''+lname}}
+    <!--<br /> Result: {{fname+''+lname}}-->
 
-    <p> banner </p>
     <div class="banner">
         <img src="images/banner1.jpg" alt="b1">
+        <div class="text">
+            banner
+            <br /> : {{fname+' '+lname}}
+        </div>
+
     </div>
 
-    
+
     <table>
         <tr>
             <th>Melchior Profiles: <p id="counter"></p></th>
@@ -29,7 +33,9 @@
         <tbody id="melch"></tbody>
     </table>
 
-    <script src="js/index.js" asp-append-version="true"></script>
+    <script src="../js/index.js" asp-append-version="true"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js">
+    </script>
     <script type="text/javascript">
         getProfiles();
     </script>
