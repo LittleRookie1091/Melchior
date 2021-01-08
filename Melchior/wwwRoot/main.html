@@ -14,14 +14,32 @@
     <input type="text" ng-model="lname" />
     <!--<br /> Result: {{fname+''+lname}}-->
 
-    <div class="banner">
-        <img src="images/banner1.jpg" alt="b1">
-        <div class="text">
-            banner
-            <br /> : {{fname+' '+lname}}
-        </div>
+<div class="banner">
+    <img class="mySlides" src="images/banner1.jpg">
+    <img class="mySlides" src="images/banner2.jpg">
+    <img class="mySlides" src="images/banner3.jpg">
+    <script>
+        var myIndex = 0;
+        animate();
+        function animate() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
 
+    <div class="text">
+        banner
+        <br /> : {{fname+' '+lname}}
     </div>
+
+</div>
 
 
     <table>
