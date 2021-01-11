@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dream\\Desktop\\Work\\WebProject\\Melchior\\Melchior\\Melchior.csproj": {}
+    "E:\\Visual Studio Space\\Repos\\Melchior\\Melchior\\Melchior.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dream\\Desktop\\Work\\WebProject\\Melchior\\Melchior\\Melchior.csproj": {
+    "E:\\Visual Studio Space\\Repos\\Melchior\\Melchior\\Melchior.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dream\\Desktop\\Work\\WebProject\\Melchior\\Melchior\\Melchior.csproj",
+        "projectUniqueName": "E:\\Visual Studio Space\\Repos\\Melchior\\Melchior\\Melchior.csproj",
         "projectName": "Melchior",
-        "projectPath": "C:\\Users\\Dream\\Desktop\\Work\\WebProject\\Melchior\\Melchior\\Melchior.csproj",
-        "packagesPath": "C:\\Users\\Dream\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dream\\Desktop\\Work\\WebProject\\Melchior\\Melchior\\obj\\",
+        "projectPath": "E:\\Visual Studio Space\\Repos\\Melchior\\Melchior\\Melchior.csproj",
+        "packagesPath": "C:\\Users\\Dominic\\.nuget\\packages\\",
+        "outputPath": "E:\\Visual Studio Space\\Repos\\Melchior\\Melchior\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dream\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dominic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -19,11 +19,13 @@ function getProfiles() {
 function addProfile() {
     const addNameTextbox = document.getElementById('add-name');
     const addAgeTextbox = document.getElementById('add-age');
+    const addDescriptionTextbox = document.getElementById('add-des');
 
     const profile = {
         isComplete: false,
         name: addNameTextbox.value.trim(),
-        age: addAgeTextbox.value.trim()
+        age: addAgeTextbox.value.trim(),
+        description: addDescriptionTextbox.value.trim()
     };
 
     fetch(uri, {
