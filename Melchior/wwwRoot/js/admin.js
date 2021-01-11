@@ -61,7 +61,9 @@ function updateItem() {
     const item = {
         id: parseInt(itemId, 10),
         isComplete: document.getElementById('edit-isComplete').checked,
-        name: document.getElementById('edit-name').value.trim()
+        name: document.getElementById('edit-name').value.trim(),
+        age: document.getElementById('edit-age').value.trim(),
+        des: document.getElementById('edit-des').value.trim()
     };
 
     fetch(`${uri}/${itemId}`, {
