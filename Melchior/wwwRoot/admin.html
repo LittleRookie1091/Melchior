@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Admin</title>
+</head>
+<body>
+    <p>create profile</p>
+
+    <form action="javascript:void(0);" method="POST" onsubmit="addProfile()">
+
+        Name:<input type="text" id="add-name" value="Name"><br>
+        Age :<input type="text" id="add-age" value="123"><br>
+
+        <input type="submit" value="Create Profile">
+    </form>
+
+    <!--
+    <p><br />Display/Edit profile:</p>
+    <form action="javascript:void(0);" method="GET" onsubmit="displayProfile()">
+        <input type="text" id="get-id" placeholder="id" value="1"><br>
+        <input type="submit" value="submit">
+    </form>
+    -->
+
+    <div id="editForm">
+        <h3>Edit</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="checkbox" id="edit-isComplete">
+            <input type="text" id="edit-name">
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Is Complete?</th>
+            <th>Name</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="todos"></tbody>
+    </table>
+
+
+    <script src="js/admin.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getProfiles();
+    </script>
+</body>
+</html>
