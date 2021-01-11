@@ -92,6 +92,14 @@ function _displayCount(itemCount) {
     document.getElementById('counter').innerText = `${itemCount}`;
 }
 
+function deleteItem(id) {
+    fetch(`${uri}/${id}`, {
+        method: 'DELETE'
+    })
+        .then(() => getProfiles())
+        .catch(error => console.error('Unable to delete item.', error));
+}
+
 function _displayItems(data) {
     const tBody = document.getElementById('melch');
     tBody.innerHTML = '';
