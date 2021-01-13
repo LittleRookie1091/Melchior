@@ -3,6 +3,14 @@
     margin:0px;
 }
 
+.angularTest {
+    position: relative;
+    left:200px;
+}
+.angularTest2 {
+    position: relative;
+    left: 800px;
+}
 .banner {
     /*display:inline-block;*/
     position: relative;
@@ -37,3 +45,7 @@ body {
     color: white;
     text-align: center;
 }
+
+
+
+

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/admin.css" />
+    <title>Admin</title>
+</head>
+<body>
+    <h1>create profile</h1>
+    <div class="box">
+        <form action="javascript:void(0);" method="POST" onsubmit="addProfile()">
+
+            Name<br><input type="text" id="add-name" placeholder="Name"><br>
+            Age<br><input type="text" id="add-age" placeholder="123"><br>
+            Description<br><input type="text" id="add-des" placeholder="..."><br>
+            <input type="submit" class="btn" value="Create Profile">
+        </form>
+    </div>
+
+    <!--
+    <p><br />Display/Edit profile:</p>
+    <form action="javascript:void(0);" method="GET" onsubmit="displayProfile()">
+        <input type="text" id="get-id" placeholder="id" value="1"><br>
+        <input type="submit" value="submit">
+    </form>
+    -->
+    <h1>Edit</h1>
+    <div class="box">
+        <div id="editForm">
+            <form action="javascript:void(0);" onsubmit="updateItem()">
+                <input type="hidden" id="edit-id">
+                <input type="checkbox" id="edit-isComplete">
+                Name <input type="text" id="edit-name"><br>
+                Age <input type="text" id="edit-age"><br>
+                Description <input type="text" id="edit-des"><br>
+                <input type="submit" value="Save">
+                <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+            </form>
+        </div>
+    </div>
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="melch"></tbody>
+    </table>
+
+
+    <script src="js/admin.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getProfiles();
+    </script>
+</body>
+</html>
