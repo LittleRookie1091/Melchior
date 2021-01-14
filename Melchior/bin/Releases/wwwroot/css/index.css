@@ -3,6 +3,14 @@
     margin:0px;
 }
 
+.angularTest {
+    position: relative;
+    left:200px;
+}
+.angularTest2 {
+    position: relative;
+    left: 800px;
+}
 .banner {
     /*display:inline-block;*/
     position: relative;
@@ -27,4 +35,17 @@
 body {
     font-family: "Lato", sans-serif;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+}
+
+
+
 

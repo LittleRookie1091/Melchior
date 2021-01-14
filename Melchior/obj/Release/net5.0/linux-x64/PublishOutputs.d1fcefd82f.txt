@@ -1,4 +1,7 @@
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\Melchior
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\admin.html
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\css\admin.css
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\css\BootStrap.css
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\css\index.css
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\css\sidenavstyle.css
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\Dominic.html
@@ -6,9 +9,15 @@ E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubT
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\images\banner1.jpg
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\images\banner2.jpg
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\images\banner3.jpg
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\js\admin.js
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\js\bjs\bjs_scene.js
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\js\Example.js
-E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\js\index.js
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\js\e\three.js
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\js\main.js
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\js\model3d.js
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\main.html
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\models\panda.glb
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\Test.html
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\wwwroot\testingPage.html
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\appsettings.Development.json
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\linux-x64\PubTmp\Out\appsettings.json

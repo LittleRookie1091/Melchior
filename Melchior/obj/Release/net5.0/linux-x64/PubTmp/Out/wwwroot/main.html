@@ -5,7 +5,11 @@
     <title>Melchior</title>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/sidenavstyle.css" />
-    
+    <link rel="stylesheet" href="css/BootStrap.css" />
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <script src../js/model3d.js"></script>
 </head>
 
 <body ng-app>
@@ -15,9 +19,10 @@
         <a href="Dream.html">Dream</a>
         <a href="Dominic.html">Dominic</a>
         <a href="testingPage.html">Testing</a>
+        <a href="admin.html">Admin</a>
     </div>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu Test</span>
+    <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
     <script>
         function openNav() {
@@ -29,11 +34,9 @@
         }
     </script>
     <p></p>
-    Edit Banner Text:
 
-    <input type="text" ng-model="fname" />
-    <br /> Edit Banner Text:
-    <input type="text" ng-model="lname" />
+    <input type="text" ng-model="fname" class="angularTest" />
+    <input type="text" ng-model="lname" class="angularTest2" />
     <!--<br /> Result: {{fname+''+lname}}-->
 
     <div class="banner">
@@ -56,15 +59,15 @@
                 setTimeout(animate, 3000);
             }
         </script>
-
+        <model-3d background-color="#ffffff" src="/models/panda.glb"></model-3d>
         <div class="text">
-            Welcome
+            Melchior
             <br /> {{fname+' '+lname}}
         </div>
 
     </div>
 
-
+    <!--
     <table>
         <tr>
             <th>Melchior Profiles: <p id="counter"></p></th>
@@ -73,13 +76,39 @@
         </tr>
         <tbody id="melch"></tbody>
     </table>
-
-    <script src="../js/index.js" asp-append-version="true"></script>
+    -->
+    <script src="../js/main.js" asp-append-version="true"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js">
     </script>
+    <!--
     <script type="text/javascript">
         getProfiles();
     </script>
-
+        -->
+    <!--
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+    <footer class="_1UUMy">
+    <span class="hidden"></span>
+    <div class="_1jkXi container-fluid">
+        <a class="bF0OS" href="https://www.facebook.com/MangaPanda.io/" target="_blank" rel="noopener noreferrer">
+        <i class="icon-facebook"></i></a>
+        <a class="bF0OS" href="https://www.instagram.com/mangapanda.io/" target="_blank" rel="noopener noreferrer"><i class="icon-instagram"></i></a>
+        <a class="bF0OS" href="https://twitter.com/MangaPandaIO" target="_blank" rel="noopener noreferrer"><i class="icon-twitter"></i></a>
+        <a class="bF0OS" href="https://www.pinterest.com/mangareaderio" target="_blank" rel="noopener noreferrer"><i class="icon-pinterest"></i></a>
+        </div>
+    <div class="_2Kurz container-fluid">
+        <a href="https://mangapanda.onl/" class="_3qHjF">Home</a>
+        <span class="_297xE">·</span>
+        <a href="https://mangapanda.onl/contact" class="_3qHjF">Contact</a>
+        <span class="_297xE">·</span>
+        <a href="https://mangapanda.onl/terms" class="_3qHjF">Terms</a>
+        <span class="_297xE">·</span>
+        <a href="https://mangapanda.onl/privacy" class="_3qHjF">Privacy</a>
+        </div><div class="_2bBFy container-fluid"><a href="https://mangahub.io" class="_3ReUN">
+        <span>©mangahub.io group</span></a></div>
+    </footer>
+        -->
 </body>
 </html>
