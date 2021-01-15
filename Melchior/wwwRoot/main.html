@@ -18,7 +18,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="main.html">Melchior Home</a>
         <a href="Dream.html">Dream</a>
-        <a href="Dominic.html">Dominic</a>
+        <a href="Evangelion.html">Dominic</a>
         <a href="testingPage.html">Testing</a>
         <a href="admin.html">Admin</a>
     </div>
@@ -40,33 +40,34 @@
     <input type="text" ng-model="lname" class="angularTest2" />
     <!--<br /> Result: {{fname+''+lname}}-->
 
-    <div class="banner">
-        s=
-        <img class="mySlides" src="images/banner1.jpg">
-        <img class="mySlides" src="images/banner2.jpg">
-        <img class="mySlides" src="images/banner3.jpg">
-        <script>
-            var myIndex = 0;
-            animate();
-            function animate() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                myIndex++;
-                if (myIndex > x.length) { myIndex = 1 }
-                x[myIndex - 1].style.display = "block";
-                setTimeout(animate, 3000);
+<div class="banner">
+    s=
+    <img class="mySlides" src="images/banner1.jpg">
+    <img class="mySlides" src="images/banner2.jpg">
+    <img class="mySlides" src="images/banner3.jpg">
+    <script>
+        var myIndex = 0;
+        animate();
+        function animate() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
             }
-        </script>
-        <model-3d background-color="#ffffff" src="/models/panda.glb"></model-3d>
-        <div class="text">
-            Melchior
-            <br /> {{fname+' '+lname}}
-        </div>
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(animate, 3000);
+        }
+    </script>
 
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=3gOlzV1qEjE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="text">
+        Melchior
+        <br /> {{fname+' '+lname}}
     </div>
+
+</div>
 
     <!--
     <table>

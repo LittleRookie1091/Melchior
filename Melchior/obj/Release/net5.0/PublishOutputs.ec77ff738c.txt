@@ -10,6 +10,11 @@ E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\www
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\banner2.jpg
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\banner3.jpg
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\evangelion1.jpg
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\evangelion2.jpg
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\evangelion3.jpg
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\evangelion4.jpg
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\evangelion5.jpg
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\evangelion6.jpg
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\admin.js
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\bjs\bjs_scene.js
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\Example.js
@@ -20,6 +25,7 @@ E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\www
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\models\panda.glb
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\Test.html
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\testingPage.html
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\vids\Eva.mp4
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\appsettings.json
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\Melchior.dll
