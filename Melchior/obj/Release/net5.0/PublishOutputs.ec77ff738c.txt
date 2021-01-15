@@ -17,6 +17,8 @@ E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\www
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\evangelion4.jpg
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\evangelion5.jpg
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\evangelion6.jpg
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\rain.jpg
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\index.html
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\admin.js
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\bjs\bjs_scene.js
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\dream.js
