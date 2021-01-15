@@ -1,20 +1,4 @@
 {
-  "dependencies": {
-    "mssql1": {
-      "restored": true,
-      "restoreTime": "2021-01-12T04:25:18.4247021Z"
-    }
-  },
-  "parameters": {
-    "mssql1.subscriptionId": {
-      "Name": "mssql1.subscriptionId",
-      "Type": "subscription",
-      "Value": "92d075cc-5b11-430a-97ab-460d3898afd4"
-    },
-    "mssql1.resourceGroupName": {
-      "Name": "mssql1.resourceGroupName",
-      "Type": "resourceGroup",
-      "Value": "Melchior20210112171608ResourceGroup"
-    }
-  }
+  "dependencies": {},
+  "parameters": {}
 }

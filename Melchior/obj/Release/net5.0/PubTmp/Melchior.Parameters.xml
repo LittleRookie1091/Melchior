@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="Melchior20210112171705" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="Melchior" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Visual\ Studio\ Space\\Repos\\Melchior\\Melchior\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
