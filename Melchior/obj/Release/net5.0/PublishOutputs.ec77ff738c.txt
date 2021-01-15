@@ -2,10 +2,12 @@ E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\Mel
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\admin.html
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\css\admin.css
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\css\BootStrap.css
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\css\dream.css
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\css\index.css
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\css\sidenavstyle.css
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\Dominic.html
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\Dream.html
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\Evangelion.html
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\banner1.jpg
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\banner2.jpg
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\banner3.jpg
@@ -17,6 +19,7 @@ E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\www
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\images\evangelion6.jpg
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\admin.js
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\bjs\bjs_scene.js
+E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\dream.js
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\Example.js
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\e\three.js
 E:\Visual Studio Space\Repos\Melchior\Melchior\obj\Release\net5.0\PubTmp\Out\wwwroot\js\main.js

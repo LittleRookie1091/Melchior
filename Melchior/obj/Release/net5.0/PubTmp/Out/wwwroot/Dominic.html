@@ -5,8 +5,8 @@
     <title>Dominic</title>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/sidenavstyle.css" />
-    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="css/BootStrap.css" />
+    <meta name="viewport" content="initial-scale=1.0">
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
@@ -14,10 +14,12 @@
         <a href="main.html">Melchior Home</a>
         <a href="Dream.html">Dream</a>
         <a href="Dominic.html">Dominic</a>
+        <a href="Evangelion.html">Evangelion</a>
         <a href="testingPage.html">Testing</a>
+        <a href="admin.html">Admin</a>
     </div>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu Test</span>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Melchior</span>
 
     <script>
         function openNav() {
@@ -28,37 +30,6 @@
             document.getElementById("mySidenav").style.width = "0";
         }
     </script>
-
-    <style>
-        body {
-            background-image: url('images/evangelion6.jpg');
-        }
-    </style>
-
-
-    <marquee behavior="scroll" direction="left" scrolldelay="40">
-        <img src="images/evangelion1.jpg" width="250" height="164" alt="Flying Bat">
-        <img src="images/evangelion2.jpg" width="250" height="164" alt="Flying Bat">
-        <img src="images/evangelion3.jpg" width="250" height="164" alt="Flying Bat">
-        <img src="images/evangelion4.jpg" width="250" height="164" alt="Flying Bat">
-        <img src="images/evangelion5.jpg" width="250" height="164" alt="Flying Bat">
-    </marquee> 
-    <video id="my-video"
-           position="center"
-           class="video-js"
-           controls
-           preload="auto"
-           width="640"
-           height="264"
-           poster="images/evangelion5.jpg"
-           data-setup="{}">
-        <source src="vids/Eva.mp4" type="video/mp4" />
-        <p class="vjs-no-js">
-            To view this video please enable JavaScript, and consider upgrading to a
-            web browser that
-            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-        </p>
-    </video>
 
 </body>
 </html>

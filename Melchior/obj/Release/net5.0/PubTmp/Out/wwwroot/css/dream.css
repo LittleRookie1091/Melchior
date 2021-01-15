@@ -1,0 +1,58 @@
+﻿h1 {
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background: black;
+}
+
+.keys {
+    margin:100px auto;
+    max-width:880px;
+    width: 100%;
+    height:350px;
+    
+    position:relative;
+}
+
+.key {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 10px;
+    z-index: 2;
+}
+    .key:not(.sharp) {
+        float: left;
+        width: 10%;
+        height: 100%;
+        background-color: white;
+    }
+
+    .key.sharp {
+        position: absolute;
+      width: 6%;
+      height: 60%;
+      background: #000;
+      color: #eee;
+      top: 0;
+      z-index: 3;
+    }
+
+    .key[data-note="C#"] {
+        left:7%;
+    }
+    .key[data-note="D#"] {
+        left: 17%;
+    }
+    .key[data-note="F#"] {
+        left: 37%;
+    }
+    .key[data-note="G#"] {
+        left: 47%;
+    }
+    .key[data-note="A#"] {
+        left: 57%;
+    }
