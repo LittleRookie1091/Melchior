@@ -10,13 +10,14 @@ function play(e) {
         //alert(pressed + " = " + map);
         var audio = document.querySelector('audio[data-note="'+map+'"]')
         audio.play();
+        return;
     }
     
     
-
     //const audio = document.querySelector(`audio[data-key="C"]`);
     //if (!audio) return;
     //audio.play();
+
     //var play = beeplay().play('C5', 1 / 4);
 }
 
