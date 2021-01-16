@@ -1,7 +1,26 @@
-﻿function play() {
+﻿var notes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+var keybind = ['D', 'R', 'F', 'T', 'G', 'H', 'U', 'J', 'I', 'K', 'O', 'L'];
 
-    var play = beeplay().play('C5', 1 / 4);
+function play(e) {
+    //document.getElementById("note1").play();
+    var pressed = String.fromCharCode(e.which); //get key pressed
+    var index = keybind.indexOf(pressed);
+    if (index != -1) {
+        var map = notes[index];
+        //alert(pressed + " = " + map);
+        var audio = document.querySelector('audio[data-note="'+map+'"]')
+        audio.play();
+    }
+    
+    
+
+    //const audio = document.querySelector(`audio[data-key="C"]`);
+    //if (!audio) return;
+    //audio.play();
+    //var play = beeplay().play('C5', 1 / 4);
 }
+
+window.addEventListener("keydown", play);
 
 
 /* beeplay.min.js --------- */
